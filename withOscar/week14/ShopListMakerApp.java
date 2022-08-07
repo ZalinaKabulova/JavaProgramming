@@ -7,12 +7,12 @@ public class ShopListMakerApp {
     // static GroceryList list = new GroceryList();
 
     public static Scanner scanner; // global variable for this class - Declare the object reference
-    public static int x ; // this a global variable
+    //  public static int x ; // this a global variable
 
     public static void main(String[] args) {
         GroceryList list = new GroceryList();
-        System.out.println(x);
         printInstructions();
+        //     System.out.println(x);
         //  Scanner input = new Scanner(System.in);
 
         boolean toContinue = true;
@@ -20,6 +20,12 @@ public class ShopListMakerApp {
             System.out.println("Enter your NEXT choice: ");
             int choice = scanner.nextInt();
             switch (choice){
+                case 0:
+                    printInstructions();
+                    break;
+                case 1:
+                    System.out.println(list);
+                    break;
                 case 2:
                     System.out.println("Enter your grocery item:");
                     scanner.nextLine();
@@ -32,6 +38,19 @@ public class ShopListMakerApp {
                     System.out.println("Enter a replacement item : ");
                     String newItem = scanner.nextLine();
                     list.modifyGroceryItem(itemNo,newItem);
+                    break;
+                case 4:
+                    System.out.println("Enter the item number that will be removed");
+                    int itemNumber = scanner.nextInt();
+                    scanner.nextLine();
+                    list.removeItem(itemNumber);
+                    break;
+                case 5:
+                    System.out.println("Enter item name that you want to search:");
+                    scanner.nextLine();
+                    String searchItem = scanner.nextLine();
+                    System.out.println(list.findItem(searchItem));
+                    break;
                 case 6:
                     toContinue = false;
                     break;
@@ -45,7 +64,7 @@ public class ShopListMakerApp {
     // some method, if I don't wanna create an object : should be static
 
     public static void printInstructions() {
-        x = 10;
+        //     x = 10;
         scanner = new Scanner(System.in);   // initialize
         System.out.println("Select : ");
         System.out.println("\t 0 - To print menu options.");
@@ -55,7 +74,6 @@ public class ShopListMakerApp {
         System.out.println("\t 4 - To remove an item in the list.");
         System.out.println("\t 5 - To search an item in the list.");
         System.out.println("\t 6 - Quit the application.");
-    }
-}
+    }}
 
 
