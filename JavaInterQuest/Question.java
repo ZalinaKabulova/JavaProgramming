@@ -10,5 +10,12 @@ public class Question {
             }
         }
 
+        int x = 42;
+        int answer = x/7 +1 *3;
+        if(x % 7 == 0)
+            answer ++;
+
+        System.out.println(answer); //10
+
     }
 }

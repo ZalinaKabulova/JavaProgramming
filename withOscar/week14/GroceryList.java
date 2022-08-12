@@ -8,6 +8,7 @@ public class GroceryList {// blueprint class that holds function and object of S
     private ArrayList<String> groceryList;  // creating an encapsulated object of ArrayList Class
 
     public GroceryList() {
+
         groceryList = new ArrayList<>();
     }
 
@@ -16,7 +17,7 @@ public class GroceryList {// blueprint class that holds function and object of S
     }
 
     public void modifyGroceryItem(int position, String newItem) {
-        // set() method modifes arraylist
+        // set() method modifies arraylist
         groceryList.set(position-1, newItem);
         System.out.println("Grocery Item " + (position) + " has been modified");
     }

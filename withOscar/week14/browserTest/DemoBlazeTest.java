@@ -1,6 +1,6 @@
 package week14.browserTest;
 
-public class DemoBlazeTest DemoBlazeTest extends TestCase{
+public class DemoBlazeTest extends TestCase{
     public String product;
 
     public DemoBlazeTest(Browser browser, OS operatingSystem){

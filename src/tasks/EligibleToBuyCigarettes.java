@@ -13,6 +13,9 @@ public class EligibleToBuyCigarettes {
         if(!eligible){
             System.out.println("Not eligible to buy cigarettes.");
         }
+
+
+
     }
 
 
