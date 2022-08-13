@@ -1,4 +1,4 @@
-package day39_Recap.shapeTask.cydeoTask;
+package day39_Recap.cydeoTask;
 
 public class Developer extends Employee {
 
