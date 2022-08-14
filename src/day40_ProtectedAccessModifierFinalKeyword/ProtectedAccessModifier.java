@@ -6,5 +6,11 @@ public class ProtectedAccessModifier {
 
     protected static String name2 = "Wooden Spoon";// protected access modifier, can not be  accessed in world but can be accessed at the same package and class and in subclass
 
+    static void method1(){
 
+    }
+
+    protected static void method2(){
+
+    }
 }
