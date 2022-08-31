@@ -1,6 +1,6 @@
 package day27_WrapperClasses;
 
-import day25_CustomMethods_Overloading.AddElementsToArray;
+import day25_CustomMethods_Overloading.day25_CustomMethods_Overloading.AddElementsToArray;
 import utilities.ArraysUtility;
 
 import java.util.Arrays;

@@ -2,7 +2,7 @@ package day01_JavaIntro;
 
 import day24_CustomMethod_Return.ReturnMethodIntro;
 import day24_CustomMethod_Return.ReturnMethodsPractice4NOT;
-import day25_CustomMethods_Overloading.AddElementsToArray;
+import day25_CustomMethods_Overloading.day25_CustomMethods_Overloading.AddElementsToArray;
 
 import java.util.Arrays;
 
