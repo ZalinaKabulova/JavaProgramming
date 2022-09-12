@@ -68,8 +68,8 @@ public class PolymorphismIntro {
             Animal animal = new Dog("Max", "Husky", 'M', 3, "Small", "White");
             animal.drink();
             animal.eat();
-            // animal.play();
-            //  animal.bark();
+
+            //animal).bark();
 
 
             Playable animal2 = new Dog("Max", "Husky", 'M', 3, "Small", "White");
