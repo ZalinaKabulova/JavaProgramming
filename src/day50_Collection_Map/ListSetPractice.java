@@ -1,4 +1,4 @@
-package day50_Collection;
+package day50_Collection_Map;
 
 import java.util.*;
 
@@ -40,15 +40,18 @@ public class ListSetPractice {
         List<String> names = new LinkedList<>();
         names.addAll(Arrays.asList("James", "Jimmy", "Kathy", "Breanna", "Max"));
 
-        System.out.println(names);
+        System.out.println(names);   //[James, Jimmy, Kathy, Breanna, Max]
 
         ((LinkedList<String>) names).poll();
 
-        System.out.println(names);
+        System.out.println(names);  //[Jimmy, Kathy, Breanna, Max]
 
         ((LinkedList<String>) names).poll();
 
-        System.out.println(names);
+
+        System.out.println(names); //[Kathy, Breanna, Max]
+
+
 
 
 
